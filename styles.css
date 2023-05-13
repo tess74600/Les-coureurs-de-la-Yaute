@@ -3,13 +3,9 @@ body{
     margin:0;
 }
 
-nav{
-    background-color: #0d6efd;
-}
-
 /* BANNER AND DESCRIPTION */
 .banner{
-    max-width: 100%;
+    width: 100%;
 }
 
 .description{

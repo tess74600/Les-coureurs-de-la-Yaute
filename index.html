@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bienvenue sur notre association de Running, Les coureurs de la Yaute">
+    <title>Les coureurs de la Yaute</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!-- MODAL BOOTSTRAP -->
+    <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Modal">Demande d'informations</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <!-- CONTACT FORM -->
+                <div class="modal-body">
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="name">Nom</label>
+                                    <input id="name" class="form-control" type="text" name=""
+                                        placeholder="Entrez votre nom">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="firstname">Prénom</label>
+                                    <input id="firstname" class="form-control" type="text" name=""
+                                        placeholder="Entrez votre prénom">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="mail">Mail</label>
+                                    <input id="mail" class="form-control" type="email" name="mail"
+                                        placeholder="Entrez votre mail">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Valider</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <header>
+
+            <!-- NAVBAR BOOTSTRAP -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-3 mb-5">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <a class="nav-link text-dark fw-bold" href="#">Les coureurs de la Yaute</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="evenements.html">Evènements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Archives</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <!-- BANNER AND DESCRIPTION -->
+            <img src="img/paysage.png" alt="montagnes" class="banner">
+
+            <section class="description">
+                <p> Bienvenue chez les <strong> Coureurs de la Yaute </strong> ! Si vous voulez passer un bon moment,
+                    aller au bout de vous-même et profiter de nos paysages exceptionnels, n'hésitez pas à nous
+                    rejoindre. <br>
+                    Les maîtres mots ici sont le sourire et la convivialité
+                    <img src="img/bear-smile-line.svg" alt="smile">
+                </p>
+            </section>
+            <!-- CARDS -->
+            <section class="container-flex">
+                <div class="card1">
+                    <img src="img/schedule.png">
+                    <h5> Horaires </h5>
+                    <ul>
+                        <li> Mardi et jeudi de 18h30 à 19h45</li>
+                        <li>Samedi de 10h à 12h</li>
+                        <li>Dimanche de 9h à 11h</li>
+                    </ul>
+                </div>
+
+                <div class="card2">
+                    <div class="embed-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2776.126104950361!2d6.156685305515646!3d45.9087885109995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1683976351053!5m2!1sfr!2sfr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div>
+                        <h5>Lieux</h5>
+                        <p>Rendez-vous au Petit Port à Annecy </p>
+                    </div>
+                </div>
+
+                <div class="card3">
+                    <a href="#"><img src="img/coach.png"></a>
+                    <h5>Coachs</h5>
+                    <p>Retrouvez vos coachs préférés </p>
+                </div>
+            </section>
+
+
+
+            <!-- MODAL BUTTON -->
+            <button type="button" class="btn btn-outline-primary d-block mx-auto my-3" data-bs-toggle="modal"
+                data-bs-target="#form">
+                Contactez-nous
+            </button>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p> ©2023 Tous droits réservés </p>
+            <p>Suivez-nous
+                <a href="https://www.facebook.com" target="blank"> <img src="img/facebook-fill.png"
+                        alt="Cliquez pour accéder à notre page Facebook"></a>
+                <a href="https://www.instagram.com" target="blank"> <img src="img/instagram-fill.png"
+                        alt="Cliquez pour accéder à notre page Instagram"></a>
+            </p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="styles/bootstrap.min.js"></script>
+</body>
+
+</html>
